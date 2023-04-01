@@ -34,8 +34,9 @@
 </head>
 
 <body>
-
-    <div class="brand">ghostieve - home</div>
+    
+    
+    <div class="brand">ghostieve</div>
     <div class="address-bar">no where and everywhere</div>
 
     <!-- Navigation -->

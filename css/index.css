@@ -76,6 +76,11 @@ hr.visible-xs > p{
   color:rgb(5, 5, 43) !important;
 }
 
+.address-bar{
+  color: #fff !important;
+  font-weight: bolder;
+}
+
 /* id */
 #team-members {
   width: 100%;
