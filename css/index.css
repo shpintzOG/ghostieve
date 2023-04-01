@@ -1,0 +1,86 @@
+p{
+  color: #fff !important;
+}
+
+footer, nav{
+  background-color: rgb(5, 5, 43) !important;
+}
+
+nav a{
+  color: green !important;
+  /* font-family: monospace !important; */
+}
+
+nav a:hover{
+  color: orange !important;
+}
+
+/* Classess */
+.brand-before small,
+.brand-name,
+h2.intro-text{
+  color: #fff !important;
+}
+
+h2.intro-text{
+  font-size: 18px !important;
+  font-family: 500 !important;
+}
+
+hr.visible-xs > p{
+  margin-top: 10px !important;
+}
+.team-member {
+  width: 450px;
+}
+.team-member h3{
+  color: #fff;
+  font-weight: bold;
+}
+.team-member h3 small{
+  color: green;
+}
+.team-member h3 small:hover{
+  color: orange;
+}
+.team-member img {
+  border-radius: 20px;
+}
+.colorfull{
+  position: relative;
+  background-color: linear-gradient(rgb(84,104,255), rgb(255,67,66)) 0% 0% / 400% 400%;
+  border-radius: 20px;
+  overflow: hidden;
+  animation: gradient-animation 3s ease 0s infinite normal none;
+  padding: 10px;
+}
+
+@keyframes gradient-animation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.navbar{
+  border: 3px solid;
+  border-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet)1;
+}
+
+.modal .modal-body p{
+  color:rgb(5, 5, 43) !important;
+}
+
+/* id */
+#team-members {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
