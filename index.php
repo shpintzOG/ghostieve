@@ -83,7 +83,7 @@
                     <hr class="tagline-divider">
                     <h2>
                         <small>By
-                            <strong>shpintzOG.ghostieve.bit</strong>
+                            <strong>ghostieve.bit</strong>
                         </small>
                     </h2>
                 </div>
