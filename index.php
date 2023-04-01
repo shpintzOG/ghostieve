@@ -18,7 +18,7 @@
     <link href="css/business-casual.css" rel="stylesheet">
 
     <!-- Custom CSS v2 -->
-    <link href="css/index.css" rel="stylesheet"> 
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -34,10 +34,10 @@
 </head>
 
 <body>
-    
-    
-    <div class="brand">ghostieve</div>
-    <div class="address-bar">no where and everywhere</div>
+
+
+    <!-- Header -->
+    <?php require_once 'header.php'; ?>
 
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>
@@ -102,7 +102,7 @@
                     <hr class="visible-xs">
                     <p>
                         It has been a long time since I did my research so I am going to be getting back into the way of things and set myself up once more. I have this plan that I am trying to setup so if you guys are interested be sure to join my membership only blog. <em>For The Moment</em>
-                    </p>    
+                    </p>
                 </div>
             </div>
         </div>

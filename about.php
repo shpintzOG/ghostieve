@@ -18,7 +18,7 @@
     <link href="css/business-casual.css" rel="stylesheet">
 
     <!-- Custom CSS v2 -->
-    <link href="css/index.css" rel="stylesheet"> 
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -35,8 +35,8 @@
 
 <body>
 
-    <div class="brand">ghostieve</div>
-    <div class="address-bar">no where and everywhere</div>
+    <!-- Header -->
+    <?php require_once 'header.php'; ?>
 
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>

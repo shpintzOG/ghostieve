@@ -18,7 +18,7 @@
     <link href="css/business-casual.css" rel="stylesheet">
 
     <!-- Custom CSS v2 -->
-    <link href="css/index.css" rel="stylesheet"> 
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -35,8 +35,8 @@
 
 <body>
 
-    <div class="brand">ghostieve</div>
-    <div class="address-bar">no where and everywhere</div>
+    <!-- Header -->
+    <?php require_once 'header.php'; ?>
 
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>
@@ -59,7 +59,7 @@
                         <small>October 13, 2013</small>
                     </h2>
                     <p>Sometimes you need to stop and remeber to look at what you have all around you. You may be too lost in either the past. But need to remeber that the future is waiting.</p>
-                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal13"> 
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal13">
                         Read More
                     </button>
                     <hr>
@@ -73,7 +73,7 @@
                     <p>
                         Its easy to get lost in your thoughts, sometimes you can even run into problems when you aren't even looking for any.
                     </p>
-                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal12"> 
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal12">
                         Read More
                     </button>
                     <hr>
@@ -87,7 +87,7 @@
                     <p>
                         In the end of the day, whatever path you choose, you meed to remeber it will only get easier as long as you see your way through.
                     </p>
-                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal11"> 
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal11">
                         Read More
                     </button>
                     <hr>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Its easy to get lost in your thoughts, sometimes you can even run into problems when you aren't even looking for any. 
+                        Its easy to get lost in your thoughts, sometimes you can even run into problems when you aren't even looking for any.
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum et iste possimus, vero aliquid libero. Ipsum vel tempora adipisci, ratione delectus unde quia ab!
@@ -162,7 +162,7 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        In the end of the day, whatever path you choose, you meed to remeber it will only get easier as long as you see your way through.  
+                        In the end of the day, whatever path you choose, you meed to remeber it will only get easier as long as you see your way through.
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum et iste possimus, vero aliquid libero. Ipsum vel tempora adipisci, ratione delectus unde quia ab!
