@@ -35,6 +35,10 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <!-- Register -->
+    <script src="js/register"></script>
+
+
 </head>
 
 <body>
@@ -57,6 +61,7 @@
                     </h2>
                     <hr>
                     <p>If you have any questions or would like any help with anything. Want a friend or just want to say hi fill out the form below.</p>
+                    <div id="add_err2"></div>
                     <form role="form">
                         <div class="row">
                             <div class="form-group col-lg-4">
