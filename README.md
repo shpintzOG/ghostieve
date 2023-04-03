@@ -24,6 +24,6 @@ I will be doing air drops. You will be able to see, and if you are willing to ac
 
 ## Stay tune
 
-97 days left
+95 days left
 
 #smile #whatislife #zeroToHero #yolo #project-x #og678
