@@ -18,12 +18,18 @@ If you want you can also join up on my dot.bit if you do manage to support me I 
 * ghostieveog.bit
 * democratic.bit
 * republican.bit
+* shib.bit
+* shibarmy.bit
+* doge.bit
+* dogearmy.bit
+* koi.bit
+* koiarmy.bit
 
 
 I will be doing air drops. You will be able to see, and if you are willing to actually help build. Do become a member trust me ill be like your mentor ;)
 
 ## Stay tune
 
-95 days left
+94 days left
 
-#smile #whatislife #zeroToHero #yolo #project-x #og678
+#smile #whatislife #zeroToHero #yolo #project-x #og678 #northstar
