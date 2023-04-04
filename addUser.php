@@ -7,7 +7,7 @@
     $mysqli = new mysqli('localhost', 'root', '', 'ghostieve');
 
     // ouput connection error
-    if($mysqli -> connet_error) {
+    if($mysqli -> connect_error) {
         die('Error : (' . $mysqli -> connect_errno . ') ' . $mysqli -> connect_error);
     }
 
@@ -22,11 +22,11 @@
     // Validation
     if(strlen($fname) < 3) {
         echo 'fname';
-    } elseif(strlen($lname) < 3) { 
+    } elseif(strlen($lname) < 3) {
         echo 'lname';
-    } elseif(strlen($email) < 4) { 
+    } elseif(strlen($email) < 4) {
         echo 'emailog';
-    } elseif(strlen($password) <= 4) { 
+    } elseif(strlen($password) <= 4) {
         echo 'passwordog';
     } else{
 
