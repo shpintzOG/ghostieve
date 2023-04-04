@@ -28,6 +28,8 @@
         echo 'emailog';
     } elseif(strlen($password) <= 4) {
         echo 'passwordog';
+
+
     } else{
 
         // Password encrpytion
@@ -43,10 +45,10 @@
 
             if($num_row < 1) {
 
-                $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, password) VALUES ('$fname', '$lname', '$email', '$password'");
+                $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, password) VALUES ('$fname', '$lname', '$email', '$spassword')");
 
                 if($insert_row) {
-                    $_SESSION['login'] = $myqli-> $mysqli->insert_id;
+                    $_SESSION['login'] = $mysqli->insert_id;
                     $_SESSION['fname'] = $fname;
                     $_SESSION['lname'] = $lname;
 
