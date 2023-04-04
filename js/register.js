@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("register").click(function () {
 
         fname = $("#fname").val();
-        lname = $("lname").val();
+        lname = $("#lname").val();
         email = $("#email").val();
         password = $("#password").val();
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
 
                 if(html == 'true'){
 
-                    $("add_err2").html(`
+                    $("#add_err2").html(`
                         <div class="alert alert-success">
                             <strong> Account </strong> procesed
                         </div>
@@ -26,23 +26,38 @@ $(document).ready(function() {
                     window.location.href = "index.php"
 
                 } else if(html == 'false') {
-                    $("add_err2").html(`
+                    $("#add_err2").html(`
                         <div class="alret alert-danger">
                             <strong>Email address</strong> alredy in system
                         </div>
                     `)
                 } else if(html == 'fname') {
-                    $("add_err2").html(`
+                    $("#add_err2").html(`
                         <div class="alret alert-danger">
                             <strong>first name</strong> alredy in system
                         </div>
                     `)
                 } else if(html == 'lname') {
-                    $("add_err2").html(`
+                    $("#add_err2").html(`
                         <div class="alret alert-danger">
                             <strong>last name</strong> alredy in system
                         </div>
                     `)
+                    
+                } else if(html == 'exist1') {
+                    $("#add_err2").html(`
+                        <div class="alret alert-danger">
+                            <strong>email</strong> alredy in system
+                        </div>
+                    `)
+                    
+                } else if(html == 'exist2') {
+                    $("#add_err2").html(`
+                        <div class="alret alert-danger">
+                            <strong>password</strong> alredy in system
+                        </div>
+                    `)
+                    
                 } else {
                     $('#add_err2').html(`
                         <div class="alert alert-danger">
