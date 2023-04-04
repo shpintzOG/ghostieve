@@ -32,11 +32,16 @@
     <![endif]-->
 
     
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
     <!-- Register -->
-    <script src="js/register"></script>
+    <script src="js/register.js"></script>
 
 
 </head>
@@ -56,12 +61,12 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Contact
+                    <h2 class="intro-text text-center">register
                         <strong>form</strong>
                     </h2>
+                    <div id="add_err">ffS</div>
                     <hr>
                     <p>If you have any questions or would like any help with anything. Want a friend or just want to say hi fill out the form below.</p>
-                    <div id="add_err2"></div>
                     <form role="form">
                         <div class="row">
                             <div class="form-group col-lg-4">
@@ -94,10 +99,6 @@
     <!-- /.container -->
 
     <?php require_once 'footer.php'; ?>
-
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

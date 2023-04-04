@@ -60,7 +60,7 @@ hr.visible-xs > p{
     background-position: 0% 50%;
   }
   50%{
-    background-position: 100% 50%;
+    background-position: 100% 50%s;
   }
   100%{
     background-position: 0% 50%;
@@ -88,4 +88,5 @@ hr.visible-xs > p{
   justify-content: center;
   align-items: center;
 }
+
 

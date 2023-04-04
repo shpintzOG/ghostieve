@@ -20,14 +20,14 @@
     $password = mysqli_real_escape_string($mysqli, $_POST('password'));
 
     // Validation
-    if(strlen($fname) < 2) {
+    if(strlen($fname) < 3) {
         echo 'fname';
-    } elseif(strlen($lname) < 2) { 
+    } elseif(strlen($lname) < 3) { 
         echo 'lname';
-    } elseif(filter_var($email, FILTER_VALIDATE_EMAIL) === false) { 
-        echo 'exist1';
+    } elseif(strlen($email) < 4) { 
+        echo 'emailog';
     } elseif(strlen($password) <= 4) { 
-        echo 'exist2';
+        echo 'passwordog';
     } else{
 
         // Password encrpytion
