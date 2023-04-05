@@ -28,6 +28,8 @@
         echo 'emailog';
     } elseif(strlen($password) <= 4) {
         echo 'passwordog';
+
+
     } else{
 
         // Password encrpytion
@@ -36,14 +38,14 @@
         $query = "SELECT * FROM members WHERE email='$email'";
         $result = mysqli_query($mysqli, $query) or die(mysqli_error());
         $num_row = mysqli_num_rows($result);
-        $row = mysli_fetch_aray($result);
+        $row = mysqli_fetch_aray($result);
 
             if($num_row < 1) {
 
-                $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, password) VALUES ('$fname', '$lname', '$email', '$password'");
+                $insert_row = $mysqli->query("INSERT INTO members (fname, lname, email, password) VALUES ('$fname', '$lname', '$email', '$spassword')");
 
                 if($insert_row) {
-                    $_SESSION['login'] = $myqli-> $mysqli->insert_id;
+                    $_SESSION['login'] = $mysqli->insert_id;
                     $_SESSION['fname'] = $fname;
                     $_SESSION['lname'] = $lname;
 

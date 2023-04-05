@@ -37,11 +37,7 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Register -->
-    <script src="js/register.js"></script>
 
 
 </head>
@@ -66,7 +62,6 @@
                     </h2>
                     <div id="add_err">ffS</div>
                     <hr>
-                    <p>If you have any questions or would like any help with anything. Want a friend or just want to say hi fill out the form below.</p>
                     <form role="form">
                         <div class="row">
                             <div class="form-group col-lg-4">
@@ -99,6 +94,13 @@
     <!-- /.container -->
 
     <?php require_once 'footer.php'; ?>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Register -->
+    <script src="js/register.js"></script>
 
 </body>
 
