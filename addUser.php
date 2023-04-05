@@ -40,7 +40,7 @@
         $query = "SELECT * FROM members WHERE email='$email'";
         $result = mysqli_query($mysqli, $query) or die(mysqli_error());
         $num_row = mysqli_num_rows($result);
-        $row = mysli_fetch_aray($result);
+        $row = mysqli_fetch_aray($result);
 
 
             if($num_row < 1) {

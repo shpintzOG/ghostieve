@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
   $("#register").click(function (e) {
     e.preventDefault();
@@ -10,7 +12,7 @@ $(document).ready(function () {
     $.ajax({
       type: "POST",
       url: "addUser.php",
-      data: `fname=${fname}&lname=${lname}&email=${email}&password=${password}`,
+      data: "fname=" + fname + "&lname=" + lname + "&email=" + email + "&password=" + password,
       success: function (html) {
         console.log(html)
         if (html == "true") {
