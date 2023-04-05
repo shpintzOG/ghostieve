@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "POST",
-      url: "addUser.php",
+      url: "../addUser.php",
       data: `fname=${fname}&lname=${lname}&email=${email}&password=${password}`,
       success: function (html) {
         if (html == "true") {

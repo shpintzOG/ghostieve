@@ -33,13 +33,10 @@
         // Password encrpytion
         $spassword = password_hash($password, PASSWORD_BCRYPT, array('cost' => 12));
 
-
-
         $query = "SELECT * FROM members WHERE email='$email'";
         $result = mysqli_query($mysqli, $query) or die(mysqli_error());
         $num_row = mysqli_num_rows($result);
         $row = mysli_fetch_aray($result);
-
 
             if($num_row < 1) {
 
@@ -53,14 +50,11 @@
                     echo 'true';
                 }
 
-
             } else {
                 echo 'false';
             }
 
-
     }
-
 
 
 ?>
