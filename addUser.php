@@ -4,12 +4,22 @@
 
     // Open a new connection to the mySQL server
     // @params 'connections' , 'user'. 'password', 'database'
-    $mysqli = new mysqli('localhost', 'root', '', 'ghostieve');
+    $host = "localhost";
+    $username = "exampleuser";
+    $password = "hollywood";
 
-    // ouput connection error
-    if($mysqli -> connect_error) {
-        die('Error : (' . $mysqli -> connect_errno . ') ' . $mysqli -> connect_error);
+    try
+    {
+        $conn = new PDO("mysql:host=$host;dbname=ghostieve", $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     }
+    catch(PDOException $e)
+    {
+        echo "connection failed: " . $e->getMessage();
+    }
+
+
+    
 
 
     // Selected data from the form

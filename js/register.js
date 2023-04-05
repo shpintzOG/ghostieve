@@ -7,12 +7,14 @@ $(document).ready(function () {
     email = $("#email").val();
     password = $("#password").val();
 
+    console.log(fname);
+
     $.ajax({
       type: "POST",
-      url: "../addUser.php",
+      url: "http://raspberrypi/ghostieve/addUser.php",
       data: `fname=${fname}&lname=${lname}&email=${email}&password=${password}`,
       success: function (html) {
-        console.log(html);
+        
         if (html == "true") {
           $("#add_err").html(`
                         <div class="alert alert-success">
